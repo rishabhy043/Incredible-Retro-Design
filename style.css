@@ -9,9 +9,13 @@ body ,html{
   width: 100%;  
 }
 .main{
-    height: 100vh;
-    width: 100%;
+     /* height: 100%; */
+     width: 100%; 
     background-color: #C4BDB3;
+}
+.page-1{
+    height: 100%;
+    width: 100vw;
 }
 nav{
     display: flex;
@@ -31,7 +35,7 @@ nav{
     font-weight: 100;
 }
 .page-1-elem{
-    padding: 0px 4vw;
+    padding: 0px 2.5vw;
 }
 .top-elem{
     display: flex;
@@ -111,4 +115,20 @@ font-weight: 500;
 }
 .elem-2 div span {
    font-family: canopee;
+}
+
+.poster h1{
+    padding: 25px 15px;
+    border: 2px solid black;
+    font-family: canopee;
+    font-size: 580px;
+   line-height: 450px;
+   width: 100%;
+    background: transparent;
+    background-color:#1C1C1A;
+   letter-spacing: -40px;
+   font-weight: 80;
+   color:#C4BDB3;
+   margin-top: 6vh;
+
 }
