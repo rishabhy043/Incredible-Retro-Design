@@ -19,6 +19,7 @@ body ,html{
     width: 100vw;
 }
 nav{
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +50,7 @@ nav{
     border: 1px solid black;
 }
 
-.ele-img img , .part-2-left-img-box img , .part-2-right-img-box img {
+.ele-img img , .part-2-left-img-box img , .part-3-b-img img , .part-2-right-img-box img , #stamp-img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -97,11 +98,9 @@ margin-left: 1.5vh;
 }
 .elem-2 h1{
     margin-top: 2vh;
-    font-family: canopee;
-    font-size: 5vw;
-    font-weight: 300;
-    letter-spacing: -3px;
-    word-spacing: --3px;
+    font-weight: 400;
+        font-family: Editorial New Light;
+        font-size: 2.5vw;
    
 }
 .elem-2  p{
@@ -127,7 +126,6 @@ font-weight: 400;
     font-size: 580px;
    line-height: 450px;
    width: 100%;
-    background: transparent;
     background-color:#1C1C1A;
    letter-spacing: -40px;
    font-weight: 80;
@@ -135,7 +133,7 @@ font-weight: 400;
    margin-top: 6vh;
 
 }
-.part-2{
+.part-2 , .part-3{
     width: 100%;
     padding: 0px 2.5vw;
     margin-top: 6vh;
@@ -194,4 +192,77 @@ font-size: 2vw;
     font-weight: 100;
     line-height: 7.5vw;
     color: #1C1C1A;
+}
+.part-2-right h1 span{
+    text-decoration: underline 2px #908B84 ;
+}
+.website{
+    margin-top: 6vh;
+
+    padding: 0px 2.5vw;
+ 
+    display: flex;
+    gap: 3vw;
+}
+.website h1{
+    padding: 25px 15px;
+    border: 2px solid black;
+    font-family: canopee;
+    font-size: 435px;
+   line-height: 315px;
+   width: 85%;
+    background-color:#1C1C1A;
+   letter-spacing: -20px;
+   font-weight: 80;
+   color:#C4BDB3;
+}
+#stamp-img{
+  width: 25vw;
+  height: 50vh;
+}
+
+.part-3-left{
+    width: 55vw;
+    border: 2px solid black;
+}
+.part-3-row-A{
+    display: flex;
+    justify-content: space-between;
+}
+.part-3-a{
+    width: 25vw;
+}
+.part-3-a h1{
+    font-family: canopee;
+    font-size: 3.5vw;
+  line-height: 4vw;
+  color: #1C1B19;
+    letter-spacing: -2px;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+.part-3-a p{
+    margin-top: 2vh;
+    font-weight: 400;
+        font-family: Editorial New Light;
+        font-size: 2.5vw;
+        line-height: 2.9vw;
+}
+.part-3-b{
+    width: 30vw;
+}
+.part-3-b-img img{
+
+    border: 2px solid black;
+}
+.part-3-b h5{
+    font-family: canopee;
+    font-size: 33px;
+    font-weight: 400;
+    margin: 1vh 0px;
+}
+.part-3-b p{
+    font-size: 19px;
+    font-family: Editorial New Light;
+  
 }
