@@ -9,6 +9,7 @@ body ,html{
   width: 100%;  
 }
 .main{
+     /* height: 100%; */
      width: 100%; 
     background-color:  #C2BAB1;
     overflow: hidden;
@@ -16,17 +17,16 @@ body ,html{
 .page-1{
     height: 100%;
     width: 100vw;
-    
+    /* position: relative; */
 }
 nav{
-    position: sticky; 
-    top: 0; 
-    z-index: 10000; 
+position: sticky;
+top: 0;
+z-index: 100;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 4vh 2vw;
-    background-color:#CDC4B9;
     border-bottom: 1px solid #9A948D;
 }
 #logo-img{
@@ -35,7 +35,6 @@ nav{
 
 }
 .left{
-    
     color: #393733;
     font-size: 14px;
     font-weight: 100;
@@ -161,7 +160,7 @@ font-weight: 400;
 .vr2-part2{
     width: 0.7px;
     background-color: #1C1B19;
-    height: 155vh;
+    height: 136vh;
     margin: 0px 2.5vw;
 }
 .part-2-left-img-box{
