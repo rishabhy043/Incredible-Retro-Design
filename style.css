@@ -9,7 +9,6 @@ body ,html{
   width: 100%;  
 }
 .main{
-     /* height: 100%; */
      width: 100%; 
     background-color:  #C2BAB1;
     overflow: hidden;
@@ -17,14 +16,18 @@ body ,html{
 .page-1{
     height: 100%;
     width: 100vw;
+    
 }
 nav{
-
+    position: sticky; 
+    top: 0; 
+    z-index: 10000; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 4vh 2vw;
-    border-bottom: 2px solid black;
+    background-color:#CDC4B9;
+    border-bottom: 1px solid #9A948D;
 }
 #logo-img{
     height: 20px;
@@ -32,11 +35,14 @@ nav{
 
 }
 .left{
+    
     color: #393733;
     font-size: 14px;
     font-weight: 100;
 }
 .page-1-elem{
+    position: relative;
+ 
     padding: 0px 2.5vw;
 }
 .top-elem{
@@ -47,7 +53,7 @@ nav{
 .ele-img{
 
     height: 25vh;
-    border: 1px solid black;
+    border: 1px solid #9A948D;
 }
 
 .ele-img img , .part-5-top-left img ,  .part-4-left h1 img ,.part-2-left-img-box img ,.part-4-right img, .part-3-row-B img , .part-3-b-img img , .part-2-right-img-box img , #stamp-img{
@@ -87,7 +93,7 @@ margin-left: 1.5vh;
 .vr-line{
     width: 1px;
     height: 45vh;
-    background-color: #000000;
+    background-color:    #9A948D;
 }
 
 .elem-2{
@@ -99,8 +105,8 @@ margin-left: 1.5vh;
 .elem-2 h1{
     margin-top: 2vh;
     font-weight: 400;
-        font-family: Editorial New Light;
-        font-size: 2.5vw;
+        font-family: canopee;
+        font-size:5vw;
    
 }
 .elem-2  p{
@@ -139,13 +145,10 @@ font-weight: 400;
     margin-top: 6vh;
     display: flex;
 }
-.part-2-left{
-border: 2px solid black;
-}
+
 .part-2-left h1{
     font-family: canopee;
     font-size: 7vw;
-   border: 2px solid black;
    width: 30vw;
    color: #1C1B19;
    line-height: 8.5vw;
@@ -156,16 +159,16 @@ border: 2px solid black;
     font-size: 12vw;
 }
 .vr2-part2{
-    width: 1px;
+    width: 0.7px;
     background-color: #1C1B19;
-    height: 136vh;
+    height: 155vh;
     margin: 0px 2.5vw;
 }
 .part-2-left-img-box{
     width: 30vw;
     height: 75vh;
     margin-top: 2vh;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 .part-2-left p {
     margin-top: 6vh;
@@ -223,7 +226,7 @@ font-size: 2vw;
 
 .part-3-left{
     width: 55vw;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .part-3-row-A{
     display: flex;
@@ -254,7 +257,7 @@ font-size: 2vw;
 }
 .part-3-b-img img{
 
-    border: 2px solid black;
+    border: 1px solid black;
 }
 .part-3-b h5{
     font-family: canopee;
@@ -424,15 +427,83 @@ color: #1C1C1A;
         display: inline-block;
         color:#C2BAB1;
         background-color: #1C1C1A;
-        margin-bottom: 10vh;
+        
     }
     .part-5-bottom p{
      font-family: Editorial New Light;
      font-size: 2vw;
-     margin-bottom: 5vh;
+     margin-top: 3vh;
     }
     .part-5-bottom p span{
      font-size: 8vw;
      font-family: canopee;
      font-weight: 500;
+    }
+    .part-6{
+        margin-top: 6vh;
+        padding: 0px 2.5vw;
+    }
+
+    .rotating-text{
+      white-space: nowrap;
+    }
+    .rotating-text p {
+font-family: Editorial New Light;
+font-size: 4vw;
+font-weight: 500;
+display: inline-block;
+animation: rotate 4s linear infinite;
+
+
+    }
+    .rotating-text p  span{
+        font-family: canopee;
+        color: #AAA39B;
+        font-size: 5vw;
+
+        background-color: #222221;
+        padding: 2vh;
+        font-weight: 700;
+    }
+    @keyframes rotate{
+        0%{
+            transform: translateX(-100%);
+        }
+        100%{
+            transform: translateX(0%);
+        }
+    }
+    footer{
+        margin-top: 6vh;
+        padding: 0px 2.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+        font-family: canopee;
+        margin-bottom: 6vh;
+    }
+    .footer-left{
+display: flex;
+gap: 1vw;
+/* align-items: center; */
+
+    }
+    .footer-left img{
+        width: 2.5vw;
+    }
+    .footer-left h3{
+        font-size: 2vw;
+        color: #222221;
+    }
+
+    .footer-left img{
+        width: 1.5vw;
+        height: 2vw;
+    }
+    .footer-right ul{
+        display: flex;
+        gap: 2vw;
+        font-size: 1.3vw;
+       
     }
